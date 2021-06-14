@@ -21,7 +21,7 @@ const Banner = () => {
     return(
         <>
             <Slider {...settings}>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-12">
                         <div className="row banner-3">
                             <div className="col-md-6 d-flex banner-3-bg">
@@ -36,7 +36,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row">
                     <div className="col-12">
