@@ -740,13 +740,15 @@ hr {
       align-items: center;
       flex-direction: column;
       margin-top: 100px;
-      h2{
+      text-decoration: none;
+      .download-btn{
         background-color: white;
         color: black;
         padding: 5px 20px ;
         margin-bottom: 20px;
         border-radius: 5px;
         cursor: pointer;
+        
       }
       img{
         height: 60px;
@@ -775,12 +777,13 @@ hr {
     font-size: 18px;
   }
 }
-.left{
-  width: 1190px;
-  margin-top: -25px;
+
+.im{
+  height: 140px;
+  width: 140px;
 }
-.right{
-  width: 1190px;
-  margin-left: 290px;
-  margin-top: -25px;
+.servflash{
+  h3{
+    font-size: 20px;
+  }
 }

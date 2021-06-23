@@ -33,7 +33,31 @@ const Services = () => {
         </div>
         <div className="row mb-5">
           <div className="col-md-2">
-            <img className="img-fluid" src={one} alt="" />
+            <img className="img-fluid im" src={one} alt="" />
+          </div>
+          <div className="col-md-8 d-flex align-items-end servflash">
+            <h3>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores rerum necessitatibus dolorum ex optio saepe cupiditate officia facere id odio, nulla culpa totam, beatae porro debitis, animi adipisci! Ea sunt nostrum eligendi quisquam, cumque ullam perspiciatis. Corrupti, ex quia.
+            </h3>
+          </div>
+          <hr className='left' />
+        </div>
+        
+        <div className="row mb-5">
+          <div className="col-md-8 d-flex align-items-end offset-md-2 servflash">
+            <h3>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores rerum necessitatibus dolorum ex optio saepe cupiditate officia facere id odio, nulla culpa totam, beatae porro debitis, animi adipisci! Ea sunt nostrum eligendi quisquam, cumque ullam perspiciatis. Corrupti, ex quia.
+            </h3>
+          </div>
+          <div className="col-md-2">
+            <img className="img-fluid im" src={two} alt="" />
+          </div>
+          <hr className='right' />
+        </div>
+        
+        <div className="row mb-5">
+          <div className="col-md-2">
+            <img className="img-fluid im" src={three} alt="" />
           </div>
           <div className="col-md-8 d-flex align-items-end">
             <h3>
@@ -49,13 +73,13 @@ const Services = () => {
             </h3>
           </div>
           <div className="col-md-2">
-            <img className="img-fluid" src={two} alt="" />
+            <img className="img-fluid im" src={four} alt="" />
           </div>
         </div>
         <hr className='right' />
         <div className="row mb-5">
           <div className="col-md-2">
-            <img className="img-fluid" src={three} alt="" />
+            <img className="img-fluid im" src={five} alt="" />
           </div>
           <div className="col-md-8 d-flex align-items-end">
             <h3>
@@ -71,13 +95,13 @@ const Services = () => {
             </h3>
           </div>
           <div className="col-md-2">
-            <img className="img-fluid" src={four} alt="" />
+            <img className="img-fluid im" src={six} alt="" />
           </div>
         </div>
         <hr className='right' />
         <div className="row mb-5">
           <div className="col-md-2">
-            <img className="img-fluid" src={five} alt="" />
+            <img className="img-fluid im" src={seven} alt="" />
           </div>
           <div className="col-md-8 d-flex align-items-end">
             <h3>
@@ -93,13 +117,13 @@ const Services = () => {
             </h3>
           </div>
           <div className="col-md-2">
-            <img className="img-fluid" src={six} alt="" />
+            <img className="img-fluid im" src={eight} alt="" />
           </div>
         </div>
         <hr className='right' />
         <div className="row mb-5">
           <div className="col-md-2">
-            <img className="img-fluid" src={seven} alt="" />
+            <img className="img-fluid im" src={nine} alt="" />
           </div>
           <div className="col-md-8 d-flex align-items-end">
             <h3>
@@ -115,29 +139,7 @@ const Services = () => {
             </h3>
           </div>
           <div className="col-md-2">
-            <img className="img-fluid" src={eight} alt="" />
-          </div>
-        </div>
-        <hr className='right' />
-        <div className="row mb-5">
-          <div className="col-md-2">
-            <img className="img-fluid" src={nine} alt="" />
-          </div>
-          <div className="col-md-8 d-flex align-items-end">
-            <h3>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores rerum necessitatibus dolorum ex optio saepe cupiditate officia facere id odio, nulla culpa totam, beatae porro debitis, animi adipisci! Ea sunt nostrum eligendi quisquam, cumque ullam perspiciatis. Corrupti, ex quia.
-            </h3>
-          </div>
-        </div>
-        <hr className='left' />
-        <div className="row mb-5">
-          <div className="col-md-8 d-flex align-items-end offset-md-2">
-            <h3>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolores rerum necessitatibus dolorum ex optio saepe cupiditate officia facere id odio, nulla culpa totam, beatae porro debitis, animi adipisci! Ea sunt nostrum eligendi quisquam, cumque ullam perspiciatis. Corrupti, ex quia.
-            </h3>
-          </div>
-          <div className="col-md-2">
-            <img className="img-fluid" src={ten} alt="" />
+            <img className="img-fluid im" src={ten} alt="" />
           </div>
         </div>
         <hr className='right' />

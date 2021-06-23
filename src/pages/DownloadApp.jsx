@@ -3,6 +3,7 @@ import banner from "../assets/banner 2.png";
 import gplay from "../assets/6631945_preview 2.svg";
 import vectorplayst from "../assets/6631945_preview 2.svg";
 import Wave from "../assets/Vector 4.svg";
+import apk from "../assets/Dashback.apk"
 
 const DownloadApp = () => {
     return (
@@ -15,12 +16,11 @@ const DownloadApp = () => {
                         <h1>
                             Download the APP now
                         </h1>
-                        <div className="circle">
-                            <h2>
-                                Download
-                            </h2>
+                        <a href={apk} download className="circle">
+                            
+                              <div className="download-btn">Download</div>                              
                             <img src={gplay} alt="" />
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
